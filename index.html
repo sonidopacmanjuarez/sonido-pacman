@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sonido Pacman — Sonido y Karaoke para Eventos en Cd. Juárez</title>
+<meta name="description" content="Sonido Pacman: sonido y karaoke para tus eventos en Ciudad Juárez, Chihuahua. Equipo profesional, luces y ambiente garantizado. Cotiza tu fecha por WhatsApp.">
+<meta property="og:title" content="Sonido Pacman — Sonido y Karaoke en Cd. Juárez">
+<meta property="og:description" content="Sonido y karaoke para eventos en Ciudad Juárez, Chihuahua. Cotiza tu fecha por WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sonidopacmanjuarez.github.io/sonido-pacman/">
+<meta property="og:image" content="https://sonidopacmanjuarez.github.io/sonido-pacman/img/logo-pacman.png">
+<link rel="icon" href="img/icono-pacman.jpg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#07030d">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;900&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Sonido Pacman","image":"https://sonidopacmanjuarez.github.io/sonido-pacman/img/logo-pacman.png","url":"https://sonidopacmanjuarez.github.io/sonido-pacman/","telephone":"+52 656 200 7100","address":{"@type":"PostalAddress","addressLocality":"Ciudad Juárez","addressRegion":"Chihuahua","addressCountry":"MX"},"description":"Sonido y karaoke para eventos en Ciudad Juárez, Chihuahua."}
+</script>
+<style>
+:root{--negro:#07030d;--panel:#10081d;--panel2:#160b28;--fucsia:#ff2ea6;--cian:#22d3ee;--morado:#7c3aed;--blanco:#fff;--gris:#c9c2d9;--linea:#2a1b47}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{overflow-x:hidden;overflow-x:clip}
+html{scroll-behavior:smooth}
+body{background:var(--negro);color:var(--blanco);font-family:'Inter',system-ui,sans-serif;line-height:1.55}
+img{max-width:100%;display:block}
+h1,h2,h3{font-family:'Archivo',sans-serif;text-transform:uppercase}
+.wrap{max-width:1180px;margin:0 auto;padding:0 18px}
+header{position:fixed;top:0;left:0;right:0;z-index:60;background:rgba(7,3,13,.92);backdrop-filter:blur(10px);border-bottom:3px solid var(--fucsia)}
+.header-in{display:flex;align-items:center;gap:14px;padding:10px 18px;max-width:1180px;margin:0 auto}
+.header-in img{height:52px;width:auto;border-radius:8px}
+.brand{font-family:'Archivo',sans-serif;font-weight:900;font-size:1.15rem;line-height:1.05;text-transform:uppercase}
+.brand span{background:linear-gradient(90deg,var(--fucsia),var(--cian));-webkit-background-clip:text;background-clip:text;color:transparent}
+nav{margin-left:auto;display:flex;gap:20px;align-items:center}
+nav a{color:#fff;text-decoration:none;font-weight:600;font-size:.95rem}
+nav a:hover{color:var(--fucsia)}
+.btn-wa{background:linear-gradient(90deg,var(--fucsia),var(--morado));color:#fff!important;padding:10px 18px;border-radius:8px;font-weight:800}
+@media(max-width:760px){nav a:not(.btn-wa){display:none}.brand{font-size:1rem}}
+.hero{position:relative;padding:150px 0 84px;background:#000;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:url('img/hero.webp') center/cover no-repeat;opacity:.55}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,3,13,.94) 30%,rgba(7,3,13,.5)),linear-gradient(0deg,var(--negro),transparent 55%)}
+.hero-in{position:relative;z-index:2}
+.hero .logo-hero{width:min(400px,84vw);border-radius:14px;box-shadow:0 24px 60px rgba(255,46,166,.25);margin-bottom:26px}
+.hero h1{font-size:clamp(2.1rem,6vw,3.8rem);font-weight:900;line-height:1.02}
+.hero h1 .g{background:linear-gradient(90deg,var(--fucsia),var(--cian));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.sub{font-size:clamp(1.05rem,2.6vw,1.35rem);color:#ece8f7;max-width:620px;margin:16px 0 8px}
+.badges{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0 28px}
+.badge{background:rgba(255,255,255,.07);border:1px solid var(--linea);border-left:5px solid var(--fucsia);padding:9px 14px;border-radius:8px;font-weight:700;font-size:.95rem}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px}
+.btn{display:inline-block;padding:15px 26px;border-radius:10px;font-weight:800;text-decoration:none;font-size:1.02rem}
+.btn-neon{background:linear-gradient(90deg,var(--fucsia),var(--morado));color:#fff}
+.btn-borde{border:2px solid #fff;color:#fff}
+.btn-borde:hover{border-color:var(--cian);color:var(--cian)}
+section{padding:74px 0}
+.sec-head{margin-bottom:30px}
+.kicker{color:var(--cian);font-weight:800;text-transform:uppercase;letter-spacing:.14em;font-size:.85rem}
+.sec-head h2{font-size:clamp(1.7rem,4.4vw,2.6rem);font-weight:900;margin-top:6px}
+.sec-head p{color:var(--gris);max-width:720px;margin-top:8px}
+.servicios{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.servicio{background:var(--panel);border:1px solid var(--linea);border-radius:16px;overflow:hidden}
+.servicio img{height:230px;width:100%;object-fit:cover}
+.servicio .s-in{padding:22px}
+.servicio h3{font-size:1.35rem;margin-bottom:8px}
+.servicio h3 .n{color:var(--fucsia)}
+.servicio p{color:var(--gris)}
+.equipo{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px}
+.eq{background:var(--panel);border:1px solid var(--linea);border-radius:14px;overflow:hidden}
+.eq img{height:190px;width:100%;object-fit:cover}
+.eq figcaption{padding:13px 15px;font-weight:700;font-family:'Archivo',sans-serif;text-transform:uppercase;font-size:.95rem}
+.eq figcaption span{color:var(--cian)}
+.videos{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.videos figure{background:var(--panel);border:1px solid var(--linea);border-radius:14px;overflow:hidden}
+.videos video{width:100%;display:block;background:#000;aspect-ratio:16/9;object-fit:cover}
+.videos figcaption{padding:13px 15px;font-weight:700}
+.galeria{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.galeria img{border-radius:12px;height:210px;width:100%;object-fit:cover;border:1px solid var(--linea)}
+.pasos{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.paso{background:var(--panel);border:1px solid var(--linea);border-top:5px solid var(--cian);border-radius:12px;padding:22px}
+.paso .num{font-family:'Archivo',sans-serif;font-size:2rem;font-weight:900;color:var(--fucsia)}
+.paso h3{margin:8px 0 6px;font-size:1.1rem}
+.paso p{color:var(--gris);font-size:.96rem}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.info-card{background:var(--panel);border:1px solid var(--linea);border-radius:14px;padding:24px}
+.info-card h3{color:var(--fucsia);margin-bottom:10px;font-size:1.15rem}
+.info-card p{color:#e6e1f2}
+.mapa{border-radius:14px;overflow:hidden;border:1px solid var(--linea);margin-top:18px}
+.mapa iframe{width:100%;height:320px;border:0;display:block}
+form{display:grid;gap:12px}
+form input,form textarea{background:#0b0616;border:2px solid var(--linea);border-radius:10px;color:#fff;padding:13px 15px;font-size:1rem;font-family:'Inter',sans-serif;width:100%}
+form input:focus,form textarea:focus{outline:none;border-color:var(--fucsia)}
+form button{background:linear-gradient(90deg,var(--fucsia),var(--morado));color:#fff;border:0;padding:15px;border-radius:10px;font-weight:800;font-size:1.05rem;cursor:pointer}
+.app-box{background:linear-gradient(120deg,#2a0a24,var(--panel));border:1px solid var(--fucsia);border-radius:16px;padding:30px;display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between}
+footer{border-top:3px solid var(--fucsia);padding:38px 0 90px;background:#040109;color:var(--gris)}
+footer .f-in{display:flex;flex-wrap:wrap;gap:22px;align-items:center}
+footer img{height:64px;border-radius:8px}
+.wa-float{position:fixed;right:18px;bottom:18px;z-index:70;background:#25d366;color:#fff;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.7rem;text-decoration:none;box-shadow:0 10px 26px rgba(0,0,0,.5)}
+.rv-l{opacity:0;transform:translateX(-84px);transition:opacity .85s cubic-bezier(.16,.68,.24,1),transform .85s cubic-bezier(.16,.68,.24,1)}
+.rv-r{opacity:0;transform:translateX(84px);transition:opacity .85s cubic-bezier(.16,.68,.24,1),transform .85s cubic-bezier(.16,.68,.24,1)}
+.rv-l.in,.rv-r.in{opacity:1;transform:none}
+.load-l{animation:slideL .95s cubic-bezier(.16,.68,.24,1) both}
+@keyframes slideL{from{opacity:0;transform:translateX(-84px)}to{opacity:1;transform:none}}
+@media(max-width:760px){.rv-l{transform:translateX(-40px)}.rv-r{transform:translateX(40px)}@keyframes slideL{from{opacity:0;transform:translateX(-36px)}to{opacity:1;transform:none}}}
+@media(prefers-reduced-motion:reduce){.rv-l,.rv-r{opacity:1;transform:none;transition:none}.load-l{animation:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="header-in">
+    <img src="img/logo-pacman.png" alt="Sonido Pacman">
+    <div class="brand">Sonido<br><span>Pacman</span></div>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#equipo">Equipo</a>
+      <a href="#videos">Videos</a>
+      <a href="#contacto">Contacto</a>
+      <a class="btn-wa" href="https://wa.me/526562007100?text=Hola%2C%20quiero%20cotizar%20mi%20evento%20con%20Sonido%20Pacman." target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="hero-bg"></div>
+  <div class="wrap hero-in">
+    <img class="logo-hero load-l" src="img/logo-pacman.png" alt="Logotipo de Sonido Pacman">
+    <h1 class="load-l">Sonido y karaoke<br><span class="g">para tu evento</span></h1>
+    <p class="sub load-l">El ambiente que tu fiesta necesita: sonido profesional, luces y karaoke para que nadie se quede sentado.</p>
+    <div class="badges load-l">
+      <div class="badge">📍 Ciudad Juárez, Chihuahua</div>
+      <div class="badge">🎤 Sonido + Karaoke</div>
+      <div class="badge">🎉 Para todo tipo de eventos</div>
+    </div>
+    <div class="cta-row load-l">
+      <a class="btn btn-neon" href="https://wa.me/526562007100?text=Hola%2C%20quiero%20cotizar%20mi%20evento%20con%20Sonido%20Pacman." target="_blank" rel="noopener">Cotizar mi fecha</a>
+      <a class="btn btn-borde" href="#videos">Ver videos</a>
+    </div>
+  </div>
+</div>
+
+<section id="servicios">
+  <div class="wrap">
+    <div class="sec-head rv-l">
+      <div class="kicker">Lo que hacemos</div>
+      <h2>Nuestros servicios</h2>
+      <p>Solo dos cosas, pero hechas en serio: que tu evento suene increíble y que todos canten.</p>
+    </div>
+    <div class="servicios">
+      <article class="servicio rv-l">
+        <img src="img/sonido.webp" alt="Sonido profesional para eventos">
+        <div class="s-in">
+          <h3><span class="n">01 ·</span> Sonido para eventos</h3>
+          <p>Equipo de sonido profesional con DJ para tu evento en Cd. Juárez: potencia, claridad y el ambiente que pone a todos a bailar.</p>
+        </div>
+      </article>
+      <article class="servicio rv-r">
+        <img src="img/karaoke.webp" alt="Karaoke para eventos">
+        <div class="s-in">
+          <h3><span class="n">02 ·</span> Karaoke</h3>
+          <p>Karaoke para que tus invitados sean las estrellas de la noche. Micrófonos, pantalla y las canciones que todos se saben.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="equipo" style="background:var(--panel);border-top:1px solid var(--linea);border-bottom:1px solid var(--linea)">
+  <div class="wrap">
+    <div class="sec-head rv-l">
+      <div class="kicker">Con qué trabajamos</div>
+      <h2>Nuestro equipo de sonido</h2>
+      <p>Equipo profesional de audio e iluminación para que tu evento se escuche y se vea de otro nivel.</p>
+    </div>
+    <div class="equipo">
+      <figure class="eq rv-l"><img src="img/bocinas.webp" alt="Arreglo de bocinas line array" loading="lazy"><figcaption>Bocinas <span>line array</span></figcaption></figure>
+      <figure class="eq rv-r"><img src="img/subwoofer.webp" alt="Subwoofers profesionales" loading="lazy"><figcaption>Subwoofers <span>de potencia</span></figcaption></figure>
+      <figure class="eq rv-l"><img src="img/consola.webp" alt="Consola de mezcla de audio" loading="lazy"><figcaption>Consola <span>de mezcla</span></figcaption></figure>
+      <figure class="eq rv-r"><img src="img/controlador.webp" alt="Controlador de DJ" loading="lazy"><figcaption>Controlador <span>DJ</span></figcaption></figure>
+      <figure class="eq rv-l"><img src="img/microfonos.webp" alt="Micrófonos inalámbricos" loading="lazy"><figcaption>Micrófonos <span>inalámbricos</span></figcaption></figure>
+      <figure class="eq rv-r"><img src="img/luces.webp" alt="Luces robóticas beam" loading="lazy"><figcaption>Luces <span>robóticas</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="videos">
+  <div class="wrap">
+    <div class="sec-head rv-l">
+      <div class="kicker">Así se vive</div>
+      <h2>Videos de nuestros eventos</h2>
+      <p>Esto es real: nuestro equipo trabajando en eventos de verdad. Dale play.</p>
+    </div>
+    <div class="videos">
+      <figure class="rv-l">
+        <video controls preload="metadata" poster="img/evento-2.webp" src="media/video-1.mp4"></video>
+        <figcaption>🔊 Luces y ambiente en vivo</figcaption>
+      </figure>
+      <figure class="rv-r">
+        <video controls preload="metadata" poster="img/evento-1.webp" src="media/video-2.mp4"></video>
+        <figcaption>🎉 El show completo de luces</figcaption>
+      </figure>
+    </div>
+    <div class="sec-head rv-l" style="margin-top:44px">
+      <div class="kicker">Galería</div>
+      <h2>El ambiente Pacman</h2>
+    </div>
+    <div class="galeria">
+      <img class="rv-l" src="img/evento-1.webp" alt="Pista de baile con láseres" loading="lazy">
+      <img class="rv-r" src="img/evento-2.webp" alt="Panel LED gigante en escenario" loading="lazy">
+      <img class="rv-l" src="img/evento-3.webp" alt="DJ mezclando en cabina" loading="lazy">
+      <img class="rv-r" src="img/evento-4.webp" alt="Fiesta al aire libre con luces" loading="lazy">
+      <img class="rv-l" src="img/hero.webp" alt="Escenario de DJ con paneles LED" loading="lazy">
+      <img class="rv-r" src="img/sonido.webp" alt="Torres de bocinas en salón de eventos" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--panel);border-top:1px solid var(--linea);border-bottom:1px solid var(--linea)">
+  <div class="wrap">
+    <div class="sec-head rv-l">
+      <div class="kicker">Sin complicaciones</div>
+      <h2>Cómo apartar tu fecha</h2>
+    </div>
+    <div class="pasos">
+      <div class="paso rv-l"><div class="num">01</div><h3>Escríbenos</h3><p>Mándanos WhatsApp con la fecha y el tipo de tu evento.</p></div>
+      <div class="paso rv-r"><div class="num">02</div><h3>Te cotizamos</h3><p>Te confirmamos disponibilidad y precio al momento, sin vueltas.</p></div>
+      <div class="paso rv-l"><div class="num">03</div><h3>A disfrutar</h3><p>Llegamos, instalamos y tu fiesta suena como debe sonar.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="wrap">
+    <div class="sec-head rv-l">
+      <div class="kicker">Contacto</div>
+      <h2>Cotiza tu evento</h2>
+    </div>
+    <div class="info-grid">
+      <div class="info-card rv-l">
+        <h3>📲 WhatsApp directo</h3>
+        <p>📍 Ciudad Juárez, Chihuahua<br>📲 WhatsApp: 656 200 7100</p>
+        <p style="margin-top:14px"><a class="btn btn-neon" href="https://wa.me/526562007100?text=Hola%2C%20quiero%20cotizar%20mi%20evento%20con%20Sonido%20Pacman." target="_blank" rel="noopener">Escribir por WhatsApp</a></p>
+        <p style="margin-top:16px">Cuéntanos la fecha, el lugar y qué necesitas: sonido, karaoke o los dos.</p>
+      </div>
+      <div class="info-card rv-r">
+        <h3>✍️ Pide tu cotización</h3>
+        <form id="form-cot">
+          <input type="text" id="f-nombre" placeholder="Tu nombre" required>
+          <input type="text" id="f-evento" placeholder="Tipo de evento (boda, XV años, cumpleaños…)" required>
+          <input type="text" id="f-fecha" placeholder="Fecha de tu evento" required>
+          <textarea id="f-notas" rows="3" placeholder="¿Sonido, karaoke o los dos? ¿Algún detalle más?"></textarea>
+          <button type="submit">Enviar por WhatsApp</button>
+        </form>
+      </div>
+    </div>
+    <div class="mapa rv-l">
+      <iframe title="Mapa de Ciudad Juárez, Chihuahua" src="https://maps.google.com/maps?q=Ciudad%20Ju%C3%A1rez,%20Chihuahua,%20M%C3%A9xico&amp;z=11&amp;output=embed" loading="lazy"></iframe>
+    </div>
+    <div class="app-box rv-r" style="margin-top:26px">
+      <div>
+        <h3 style="font-size:1.3rem">📲 Descarga la app de Sonido Pacman</h3>
+        <p style="color:var(--gris)">Videos, galería y cotización directa desde tu celular.</p>
+      </div>
+      <a class="btn btn-neon" href="sonido-pacman.apk" download>Descargar la app (Android)</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap f-in">
+    <img src="img/logo-pacman.png" alt="Sonido Pacman">
+    <div>
+      <p><strong style="color:#fff">SONIDO PACMAN</strong> — Sonido y karaoke para eventos.</p>
+      <p>Ciudad Juárez, Chihuahua · WhatsApp 656 200 7100.</p>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/526562007100?text=Hola%2C%20quiero%20cotizar%20mi%20evento%20con%20Sonido%20Pacman." target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+<script>
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js').then(function(r){ r.update(); }).catch(function(){}); }
+var io = ('IntersectionObserver' in window) ? new IntersectionObserver(function(es){ es.forEach(function(e){ if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }); }, {threshold:.12}) : null;
+document.querySelectorAll('.rv-l,.rv-r').forEach(function(el){ if (io) io.observe(el); else el.classList.add('in'); });
+document.getElementById('form-cot').addEventListener('submit', function(ev){
+  ev.preventDefault();
+  var nombre = document.getElementById('f-nombre').value.trim();
+  var evento = document.getElementById('f-evento').value.trim();
+  var fecha = document.getElementById('f-fecha').value.trim();
+  var notas = document.getElementById('f-notas').value.trim();
+  var msg = 'Hola, soy ' + nombre + '. Quiero cotizar Sonido Pacman para mi evento: ' + evento + ', el ' + fecha + '.' + (notas ? ' Detalles: ' + notas : '');
+  window.open('https://wa.me/526562007100?text=' + encodeURIComponent(msg), '_blank');
+});
+</script>
+</body>
+</html>

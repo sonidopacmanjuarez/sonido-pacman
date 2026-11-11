@@ -1,0 +1,9 @@
+{
+ "name": "Sonido Pacman",
+ "short_name": "Pacman",
+ "start_url": ".",
+ "display": "standalone",
+ "background_color": "#07030d",
+ "theme_color": "#07030d",
+ "icons": [{"src": "img/icono-pacman.jpg", "sizes": "640x640", "type": "image/jpeg"}]
+}
